@@ -16,28 +16,50 @@
 </head>
 
 <body>
-
-	<div class="container">
-
-		<p class="logo">Greg's List</p>
-
-		<nav class="main">
-
-			<ul>
-			
+	<header>
+		<a class="logo" href="...">
+			<h1>Greg's List</h1>
+		</a>
+		<nav class="main_nav">
 				<li><a href="..post.html">Post</a></li>
 				<li><a href="..account.html">Account</a></li>
-			</ul>
 		</nav>
-	</div>
-
+	</header>
 	
-	<form class="searchbox">
-		<input type="search" name="classifiedsearch" placeholder="Search software jobs...">
-		<button id="bar" type="submit"><img src="gregslist/magnifying-glass.png"></button>
-	</form>
+	<section class="search_section">
+		<form class="searchbox">
+			<input type="search" name="classifiedsearch" placeholder="Search software jobs...">
+			<button type="submit" class="search_button"><img src="gregslist/magnifying-glass.png"></button>
+		</form>
+	</section>
+	
+	<nav  class="pages_nav">
+		<a class="page_back_button" href="...">prev</a>
+		<span class="pages_display">1 to 100 of 179</span>
+		<a class="pack_forward_button" href="...">next</a>
+	</nav>
 
-	</div>
+	<main>
+		<ul class="search_results">
+			<li class="results_listing">
+				<span class="listing_date">June 22</span>
+				<a href="..." class="listing_title">Technical Project Manager</a>
+				<span class="listing_location">Midtown East</span>
+			</li>
+
+			<li class="results_listing">
+				<span class="listing_date">June 21</span>
+				<a href="..." class="listing_title">Frontend Developer</a>
+				<span class="listing_location">SoHo</span>
+			</li>
+			
+			<li class="results_listing">
+				<span class="listing_date">June 20</span>
+				<a href="..." class="listing_title">Senior Python Developer</a>
+				<span class="listing_location">Flatiron</span>
+			</li>
+		</ul>
+	</main>
 
 </body>
 </html>

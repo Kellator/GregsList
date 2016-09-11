@@ -2,11 +2,8 @@
 	box-sizing: border-box;
 }
 
-html {
-	font-family: 'Roboto', sans-serif;
-}
 
-ul {
+li {
 	list-style: none;
 }
 
@@ -16,7 +13,7 @@ a {
 }
 
 a:link {
-	color: blue;
+	color: purple;
 }
 
 a:visited {
@@ -24,55 +21,55 @@ a:visited {
 }
 
 a:hover {
-	color: gold;
+	text-decoration: underline;
 }
 
 body {
 	width: 100%;
 	height: 100%;
-	font-size: 0px;
+	font-family: 'Roboto', sans-serif;
 }
 
-div.container {
+header {
 	background-color: gainsboro;
+	top: 0px;
 	width: 100%;
 	height: 50px;
-	position: relative;
+	position: fixed;
 	border-bottom: 1px grey solid;
 	margin-top: 0px;
+	display: relative;
 }
 
-p.logo {
-	position: relative;
-	font-size: 24px;
-	margin-top: 10px;
-	margin-left: 10px;
-	padding-top: 0px;
-	float: left;
 
-}
-
-nav ul {
+.logo {
 	display: inline-block;
-	float: right;
 }
 
-nav li {
+.logo h1 { 
+	margin: 0;
+	padding: 0;
+	font-size: 18px; 
+}
+
+.main_nav>li {
+	position: absolute;
+	font-size: 18px;
+	right: 10px;
+	top: 10px;
+	padding: 0 6px;
 	display: inline-block;
-	position: relative;
-	font-size: 24px;
-	margin-top: 10px;
-	margin-right: 10px;
-
 }
 
-.searchbox {
+.search_section {
 	margin-top: 60px;
 	font-size: 20px;
 	display: inline-block;
 	height: 40px;	
-	width: 75%;
+	width: 50px;
 	margin-left: 50px;
 }
 
-
+button {
+	display: inline-block;
+}
