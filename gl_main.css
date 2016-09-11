@@ -7,8 +7,58 @@ li {
 	list-style: none;
 }
 
+body {
+	margin: 0;
+	padding: 80px;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	background-color: gainsboro;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	padding: 10px;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	border-bottom: 1px grey solid;
+	margin-top: 0px;
+/*complete & working*/
+}
+
+
+.logo {
+	display: inline-block;
+	border-radius: 100%;
+	font-weight: 800;
+}
+
+.logo h1 { 
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	color: black;
+	font-weight: normal;
+}
+
+.logo a:hover {
+	text-decoration: underline;
+}
+
+.main_nav {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.main_nav_link {
+	font-size: 18px;
+	padding: 0 6px;
+}
+
 a {
-	font-size: 22px;
+	font-size: 18px;
 	text-decoration: none;
 }
 
@@ -24,52 +74,20 @@ a:hover {
 	text-decoration: underline;
 }
 
-body {
-	width: 100%;
-	height: 100%;
-	font-family: 'Roboto', sans-serif;
+.search_section{
+	margin-bottom: 30px;
 }
-
-header {
-	background-color: gainsboro;
-	top: 0px;
-	width: 100%;
-	height: 50px;
-	position: fixed;
-	border-bottom: 1px grey solid;
-	margin-top: 0px;
-	display: relative;
-}
-
-
-.logo {
-	display: inline-block;
-}
-
-.logo h1 { 
-	margin: 0;
-	padding: 0;
-	font-size: 18px; 
-}
-
-.main_nav>li {
-	position: absolute;
-	font-size: 18px;
-	right: 10px;
-	top: 10px;
-	padding: 0 6px;
-	display: inline-block;
-}
-
-.search_section {
-	margin-top: 60px;
+.search_section input{
 	font-size: 20px;
-	display: inline-block;
-	height: 40px;	
-	width: 50px;
-	margin-left: 50px;
+	height: 30px;
+	border: gainsboro 1px solid;
+	border-radius: 3px;
+	padding: 0px, 5px, 8px;
+	width: 400px;
 }
 
-button {
-	display: inline-block;
+.search_section button {
+	border: gainsboro 1px solid;
+	border-radius: 3px;
+	height: 30px;
 }
