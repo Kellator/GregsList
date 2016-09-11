@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 html {
 	font-family: 'Roboto', sans-serif;
 }
@@ -61,4 +65,14 @@ nav li {
 	margin-right: 10px;
 
 }
+
+.searchbox {
+	margin-top: 60px;
+	font-size: 20px;
+	display: inline-block;
+	height: 40px;	
+	width: 75%;
+	margin-left: 50px;
+}
+
 
