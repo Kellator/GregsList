@@ -67,10 +67,13 @@ header {
 .main_nav_link {
 	font-size: 18px;
 	padding: 0 6px;
-	color: darkslateblue;
+	color: white;
 	display: inline-block;
 }
 
+.main_nav_link a {
+	color: grey;
+}
 
 .search_section{
 	margin-bottom: 30px;
