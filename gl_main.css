@@ -13,17 +13,29 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+a {
+	font-size: 18px;
+	text-decoration: none;
+}
+
+a:link {
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 header {
 	background-color: gainsboro;
 	top: 0px;
 	left: 0px;
 	right: 0px;
 	padding: 10px;
-	width: 100%;
-	height: 50px;
 	position: fixed;
-	border-bottom: 1px grey solid;
+	border-bottom: 1px lightslategrey solid;
 	margin-top: 0px;
+	font-weight: bold;
 /*complete & working*/
 }
 
@@ -39,7 +51,7 @@ header {
 	padding: 0;
 	font-size: 18px;
 	color: black;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 .logo a:hover {
@@ -55,30 +67,46 @@ header {
 .main_nav_link {
 	font-size: 18px;
 	padding: 0 6px;
+	color: darkslateblue;
+	display: inline-block;
 }
 
-a {
-	font-size: 18px;
-	text-decoration: none;
-}
-
-a:link {
-	color: purple;
-}
-
-a:visited {
-	color: purple;
-}
-
-a:hover {
-	text-decoration: underline;
-}
 
 .search_section{
 	margin-bottom: 30px;
+	margin-left: 40px;
 }
+
+.pages_nav {
+	border: 1px solid gainsboro;
+	border-radius: 3px;
+	font-size: 0px;
+	display: inline-block;
+	margin-left: 40px;
+	margin-bottom: 30px;
+}
+
+
+.pages_display {
+	border-left: 1px solid gainsboro;
+	border-right: 1px solid	gainsboro;
+	font-size: 16px;
+	display: inline-block;
+	padding: 8px 15px;
+
+}
+
+.page_button {
+	color: black;
+	display: inline-block;
+	font-size: 16px;
+	padding: 8px 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
 .search_section input{
-	font-size: 20px;
+	font-size: 16px;
 	height: 30px;
 	border: gainsboro 1px solid;
 	border-radius: 3px;
@@ -91,9 +119,28 @@ a:hover {
 	border-radius: 3px;
 	height: 30px;
 	background-color: white;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 .mag_glass_icon {
 	height: 100%;
+}
+
+.listing_date, .listing_location {
+	color: grey;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.listing_title {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.results_listing {
+	padding-top: 20px;
+}
+
+.results_listing a {
+	color: blue;
 }
